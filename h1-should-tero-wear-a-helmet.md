@@ -90,6 +90,85 @@ Email notifications
 QR code scanner on scooters
 Customer support chat
 
+System Diagram
 
+<img width="1567" height="804" alt="Screenshot 2026-01-17 225444" src="https://github.com/user-attachments/assets/1ed22373-a9f9-456e-b10b-4fc95cba2dd7" />
 
 AuroraRide must ensure scooters are available, payments are secure, and location data is protected — otherwise customers lose trust and stop using the service.
+
+(2) What Can Go Wrong?
+Applied Models
+STRIDE
+CIA Triad
+MITRE ATT&CK
+
+Example Threats
+GPS spoofing → attacker controls scooter location data (Integrity)
+Account take over via phishing (Spoofing)
+API misuse → mass unlocking of scooters (Elevation of Privilege)
+Payment fraud-the app uses stolen cards. [Financial risk] 
+DoS attack on fleet servers → scooters become unavailable Availability
+
+Risk Prioritization Table
+Threat	            Probability	     Impact	      Priority
+Payment fraud	        Medium	      Very High	     Critical
+GPS spoofing	        Low	          High	         High
+Account takeover	    Medium	      High	         High
+DoS attack	          Medium	      Medium	       Medium
+Insider misuse	      Low	          Medium	       Low
+
+Threat Actors
+Cyber Criminals Targeting Payment Systems
+Rivals looking for operations information
+Hacktivists campaigning against e-scooters in
+Insiders with Privileged Access
+
+Known TTPs
+Credential Stuffing
+Api scraping
+GPS spoofing software
+Bot-operated DoS Attacks
+
+Business Continuity 
+AuroraRide needs its scooters to remain in working condition, as any downtime impacts its revenues. Consumer trust is delicate; an incident related to privacy can hurt the trademark.
+
+(3) What Are We Going To Do About It?
+META Framework
+
+
+Action Type	                     Controls
+Mitigate	        MFA, rate limiting, GPS anomaly detection, encryption, API throttling
+Eliminate	        Remove unused admin endpoints, disable outdated scooter firmware
+Transfer	        Use third‑party payment processors
+Accept	          Minor scooter vandalism (low financial impact)
+
+(4) Did We Do a Good Enough Job?
+Continuous Evaluation
+Besides
+Routine penetration tests
+Security audits
+Monitorization of scooter telemetry
+Incident response drills
+Maintaining the threat model with new features that come out
+“Security is an ongoing process, and as the attackers evolve, so must AuroraRide,” said the spokesperson.
+
+References
+Threat Modeling Manifesto
+https://www.threatmodelingmanifesto.org/
+
+Shostack – World’s Shortest Threat Modeling Course
+https://www.youtube.com/playlist?list=PLCVhBqLDKoOOZqKt74QI4pbDUnXSQo0nf (youtube.com in Bing)
+
+OWASP Threat Modeling Cheat Sheet
+https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html (cheatsheetseries.owasp.org in Bing)
+
+Darknet Diaries – Episode 66
+https://darknetdiaries.com/episode/66/
+
+MITRE ATT&CK Framework
+https://attack.mitre.org/
+
+Karvinen, T. (2024). Information Security Course
+https://terokarvinen.com/information-security/
+
+
