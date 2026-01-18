@@ -125,7 +125,9 @@ AuroraRide is a hypothetical electric-scooter rental firm operating in major Eur
 
 ## System Diagram
 
-<img width="1567" height="804" alt="Screenshot 2026-01-17 225444" src="https://github.com/user-attachments/assets/1ed22373-a9f9-456e-b10b-4fc95cba2dd7" />
+
+<img width="1381" height="750" alt="h1-SystemDiagram-screenshot" src="https://github.com/user-attachments/assets/74450c13-be41-435f-b323-b2a8a2716b1e" />
+
 
 ## AuroraRide System Overview
 
@@ -228,7 +230,10 @@ www.threatmodelingmanifesto.org. (n.d.). Threat Modeling Manifesto. [online] Ava
 - **Karvinen, T. (2024). Information Security Course**  
   https://terokarvinen.com/information-security/
 
-- Poston, H. (2021). Top threat modeling frameworks: STRIDE, OWASP Top 10, MITRE ATT&CK framework and more | Infosec. [online] www.infosecinstitute.com. Available at: https://www.infosecinstitute.com/resources/management-compliance-auditing/top-threat-modeling-frameworks-stride-owasp-top-10-mitre-attck-framework/.
+- **Top Threat Modeling Frameworks**
+  Poston, H. (2021). Top threat modeling frameworks: STRIDE, OWASP Top 10, MITRE ATT&CK framework and more | Infosec. [online] www.infosecinstitute.com. Available at: https://www.infosecinstitute.com/resources/management-compliance-auditing/top-threat-modeling-frameworks-stride-owasp-top-10-mitre-attck-framework/.
 
+- **AI Usage**
+AI has been used for the mark down formatting of this report.
 
 
