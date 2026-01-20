@@ -234,6 +234,9 @@ www.threatmodelingmanifesto.org. (n.d.). Threat Modeling Manifesto. [online] Ava
   Poston, H. (2021). Top threat modeling frameworks: STRIDE, OWASP Top 10, MITRE ATT&CK framework and more | Infosec. [online] www.infosecinstitute.com. Available at: https://www.infosecinstitute.com/resources/management-compliance-auditing/top-threat-modeling-frameworks-stride-owasp-top-10-mitre-attck-framework/.
 
 - **AI Usage**
-AI has been used for the mark down formatting of this report.
+  AI has been used for the mark down formatting of this report.
+
+- **PowerPoint**
+  Powerpoint is used for making the diagrams-
 
 
