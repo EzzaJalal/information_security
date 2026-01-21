@@ -237,6 +237,6 @@ www.threatmodelingmanifesto.org. (n.d.). Threat Modeling Manifesto. [online] Ava
   AI has been used for the mark down formatting of this report.
 
 - **PowerPoint**
-  Powerpoint is used for making the diagrams-
+  Powerpoint is used for making the diagrams.
 
 
