@@ -68,7 +68,7 @@ https://lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-Wh
 
 ## Task c) Voluntary Bonus: Attack Story
 
-### Attack Scenario: Compromise of a Small Design Agency
+### Attack Scenario: Compromise of a Small Design Studio
 A mid-sized design studio becomes the target of an attacker who wants to steal the project files of the firm's clients. The attacker employs social engineering, privilege escalation, and stealthy exfiltration.
 Below attack flow with tactics, techniques, and procedures according to MITRE ATT&CK.
 
