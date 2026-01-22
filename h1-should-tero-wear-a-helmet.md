@@ -5,13 +5,13 @@
 - Threat modeling assists in understanding a system to effectively identify security and privacy concerns.
 - Emphasizes cooperation, people-centric thinking, and continuous improvement.
 - Principles include structured methods, fostering informed creativity, and representing varied perspectives.
-- Anti-patterns warn against relying on a “single expert,” getting stuck in analysis, or losing sight of the big picture.
+- Anti-patterns warn against relying on a "single expert," getting stuck in analysis, or losing sight of the big picture.
 
 **Thought:** Creativity is encouraged, but it is hard to gauge. How do you remain creative and not get lost in brainstorming?
 
 ---
 
-## Shostack – World’s Shortest Threat Modeling Course (2022)
+## Shostack - World's Shortest Threat Modeling Course (2022)
 
 - Threat modeling is more efficient before code is written or when inexpensive changes can be made.
 - The Four Questions:
@@ -19,15 +19,15 @@
   2. What can go wrong?
   3. What are we going to do about it?
   4. Did we do a good job?
-- Data flow diagrams are useful because **“threats follow data, not organizational charts.”**
+- Data flow diagrams are useful because **"threats follow data, not organizational charts."**
 - Flow diagram symbols:
-  - **External entities** – outside our control  
-  - **Processes** – code executing in our environment  
-  - **Data Flows** – connect entities and processes  
-  - **Data Stores** – where data is stored  
-  - **Trust boundaries** – show separation of control  
+  - **External entities** - outside our control  
+  - **Processes** - code executing in our environment  
+  - **Data Flows** - connect entities and processes  
+  - **Data Stores** - where data is stored  
+  - **Trust boundaries** - show separation of control  
 
-**Thought:** The “Would you recommend this project to a friend?” test is surprisingly effective — it highlights issues missed by formal checklists.
+**Thought:** The "Would you recommend this project to a friend?" test is surprisingly effective - it highlights issues missed by formal checklists.
 
 ---
 
@@ -53,11 +53,11 @@
 
 ---
 
-## Darknet Diaries – Episode 96: The Police Station Incident
+## Darknet Diaries - Episode 96: The Police Station Incident
 
 - Nicole Beckwith, a former police officer and Secret Service task force member, responds to a ransomware attack at a small U.S. police department.
 - The department believed they restored systems from backups, but later discovered the backups were nearly a year old and had never been tested.
-- A week later, the same symptoms reappear — printers failing, systems slowing — prompting Nicole to rush onsite with her forensic go‑bag.
+- A week later, the same symptoms reappear - printers failing, systems slowing - prompting Nicole to rush onsite with her forensic go-bag.
 - She performs rapid memory captures and packet analysis using tools like **Volatility** and **Wireshark**.
 - Nicole discovers multiple unauthorized admin sessions active on the domain controller, confirming an attacker is inside the network **right now**.
 - She kicks out the intruders, resets credentials, and begins deeper forensic analysis.
@@ -91,7 +91,7 @@
 
 ---
 
-# b) Make-Belief Boogie-Man — Threat Model for an Imaginary Company
+# b) Make-Belief Boogie-Man - Threat Model for an Imaginary Company
 
 # AuroraRide Threat Model
 
@@ -131,7 +131,7 @@ AuroraRide is a hypothetical electric-scooter rental firm operating in major Eur
 
 ## AuroraRide System Overview
 
-AuroraRide must ensure scooters are available, payments are secure, and location data is protected — otherwise customers lose trust and stop using the service.
+AuroraRide must ensure scooters are available, payments are secure, and location data is protected - otherwise customers lose trust and stop using the service.
 
 ---
 
@@ -143,11 +143,11 @@ AuroraRide must ensure scooters are available, payments are secure, and location
 - **MITRE ATT&CK**
 
 ### Example Threats
-- **GPS spoofing** → attacker controls scooter location data *(Integrity)*
+- **GPS spoofing** -> attacker controls scooter location data *(Integrity)*
 - **Account takeover via phishing** *(Spoofing)*
-- **API misuse** → mass unlocking of scooters *(Elevation of Privilege)*
-- **Payment fraud** → stolen cards used in app *(Financial risk)*
-- **DoS attack** → scooters become unavailable *(Availability)*
+- **API misuse** -> mass unlocking of scooters *(Elevation of Privilege)*
+- **Payment fraud** -> stolen cards used in app *(Financial risk)*
+- **DoS attack** -> scooters become unavailable *(Availability)*
 
 ---
 
@@ -166,7 +166,7 @@ AuroraRide must ensure scooters are available, payments are secure, and location
 ### Threat Actors
 - Cybercriminals targeting payment systems  
 - Rivals seeking operational data  
-- Hacktivists protesting e‑scooters  
+- Hacktivists protesting e-scooters  
 - Insiders with privileged access  
 
 ---
@@ -207,7 +207,7 @@ Consumer trust is delicate; a privacy incident can damage the brand.
 - Incident response drills  
 - Updating the threat model with new features  
 
-> “Security is an ongoing process, and as the attackers evolve, so must AuroraRide,” said the spokesperson.
+> "Security is an ongoing process, and as the attackers evolve, so must AuroraRide," said the spokesperson.
 
 ---
 
@@ -215,13 +215,13 @@ Consumer trust is delicate; a privacy incident can damage the brand.
 - **Threat Modeling Manifesto**  
 www.threatmodelingmanifesto.org. (n.d.). Threat Modeling Manifesto. [online] Available at: https://www.threatmodelingmanifesto.org/
 
-- **Shostack – World’s Shortest Threat Modeling Course**  
-  Shostack. (n.d.). World’s Shortest Threat Modeling Course. [online] Available at: http://www.youtube.com/playlist?list=PLCVhBqLDKoOOZqKt74QI4pbDUnXSQo0nf
+- **Shostack - World's Shortest Threat Modeling Course**  
+  Shostack. (n.d.). World's Shortest Threat Modeling Course. [online] Available at: http://www.youtube.com/playlist?list=PLCVhBqLDKoOOZqKt74QI4pbDUnXSQo0nf
 
 - **OWASP Threat Modeling Cheat Sheet**  
  OWASP Threat Modeling. [online] cheatsheetseries.owasp.org. Available at: https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html
 
-- **Darknet Diaries – Episode 66**  
+- **Darknet Diaries - Episode 66**  
   Darknet Diaries [online] Available at: https://darknetdiaries.com/episode/96/
 
 - **MITRE ATT&CK Framework**  
