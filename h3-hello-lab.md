@@ -123,6 +123,47 @@ More doors mean more ways someone could try to get in.
 ---
 
 ## d) Bandit oh-five
+### Level 0
+I figured out how to connect to a remote server with SSH and read a simple text file using cat.
+
+<img width="640" height="89" alt="VirtualBox_InfoSecurity_Taskd0" src="https://github.com/user-attachments/assets/8f79cecd-4f30-4455-8dd4-30196d844c59" />
+
+### Level 1
+I learned how to open a file with a tricky name "-" by using ./ to tell the command it is a file, not an option.
+
+<img width="640" height="54" alt="VirtualBox_InfoSecurity_Taskd1" src="https://github.com/user-attachments/assets/209983f4-8575-4daf-9cf5-dc183a6083ba" />
+
+I had the permission denied error due to the missing of cat and it is very common to miss something in the command.
+
+### Level 2
+I also found how to read a filename that contains spaces by wrapping it in quotes or escaping spaces.
+
+<img width="640" height="54" alt="VirtualBox_InfoSecurity_Taskd2" src="https://github.com/user-attachments/assets/a3408021-6816-4aac-ba8a-f0579aa94819" />
+
+I had the error because first I misunderstood the command and instead of using the proper format, I just wrote it in a simple plain text thinking of it as a command itself.
+
+### Level 3
+I discovered hidden files inside a folder and used cat to reveal the password.
+
+<img width="640" height="120" alt="VirtualBox_InfoSecurity_Taskd3" src="https://github.com/user-attachments/assets/9bb97105-e796-4e28-8996-e80ce3328760" />
+
+Here again I did not realise that there is supposed to be a specific folder inhere so I just kept entering randomly but then when I read it carefully I realised inhere directory and then I managed to figure it out.
+
+### Level 4
+I exercised identifying the correct file among many by using the file command to check which one was human-readable text.
+
+<img width="640" height="157" alt="VirtualBox_InfoSecurity_Taskd4" src="https://github.com/user-attachments/assets/feb77b5d-2452-46f3-9bef-427606d754ef" />
+
+Here, I forgot about inhere directory again and I just started the task but then I immediately relised and fixed it accordingly. 
+
+**Final Thoughts**
+- In the beginning, I kept tripping over file names and could not figure out why my commands were not working. Eventually I realised how much small details-like a missing dash, an extra space, or a hidden dot-actually matter in Linux.
+- I have found my biggest problem was overlooking small details and which actually matters in linux alot.
+- Every level felt a bit challenging at first, but once I found the right command, things started to click. 
+- I still need to look things up quite often, however I am definitely less intimidated by the command line now that I've seen how problems can be worked through step by step.
+- I did want to push myself, but I ended up checking a walkthrough for levels 3 and 5 because some of the ideas were completely new to me. Link: https://mayadevbe.me/posts/overthewire/bandit/overview/
+
+
 
 
 
