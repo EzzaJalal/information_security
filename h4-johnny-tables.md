@@ -100,7 +100,7 @@ The mother responds by saying they should have sanitized their inputs, highlight
 - OWASP (2021). *A03 Injection - OWASP Top 10:2021*. https://owasp.org/Top10/A03_2021-Injection/
 
 ---
-# Goat - Install WebGoat 2023.4
+# a) Goat - Install WebGoat 2023.4
 ---
 
 ## Installation
@@ -146,7 +146,6 @@ It highlighted the need to examine every section of the Developer Tools, not jus
 ---
 
 # c) Update OS & Applications
-
 I updated all operating systems by running the following commands:
 
 ```bash
@@ -188,12 +187,10 @@ Available at: https://sqlzoo.net/wiki/SQL_Tutorial.
 ---
 
 # e) PortSwigger Labs - SQL Injection in WHERE Clause
-
 This lab demonstrated a SQL injection vulnerability in a product category filter. The application inserted user-supplied input directly into a SQL `WHERE` clause without sanitization or parameterization. 
 By modifying the gift category parameter, it was possible to alter the logic of the query and retrieve hidden or unreleased products. This reflects both an injection flaw and a broken access-control issue.
 
 ## How I Found the Vulnerability
-
 - I noticed that the `category` parameter in the URL (e.g., `?category=Gifts`) influenced the products displayed on the page.
 - I injected a syntax-breaking character to test how the server handled unexpected input.
 - The application returned a SQL error, confirming that the input was being passed directly into a database query without sanitization.
@@ -214,9 +211,9 @@ The payload used:
 ' OR 1=1--
 
 ### **Why It Worked**
-The server constructed a query similar to:
 
 ```sql
+The server constructed a query similar to:
 SELECT * FROM products WHERE category = '<userInput>' AND released = 1;
 When I supplied:
 ' OR 1=1--
