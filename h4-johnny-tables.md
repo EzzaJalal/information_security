@@ -109,7 +109,7 @@ Using my virtual machine, I was able to install WebGoat 2023.4 successfully by f
 The same commands from the guide were used, which made the whole process smooth.
 
 After installation, then for launching WebGoat I use the exact commands mentioned in the guide.  
-The screenshot below (taken from the terminal) indicates a successful launch:
+The screenshot below (taken from the linux terminal) indicates a successful launch:
 
 **<img width="339" height="72" alt="h4-Taska1" src="https://github.com/user-attachments/assets/2d98284c-546a-4d38-aac3-dacf961777bc" />**
 
@@ -149,10 +149,11 @@ It highlighted the need to examine every section of the Developer Tools, not jus
 
 I updated all operating systems by running the following commands:
 
-``bash
+```bash
 sudo apt update
 sudo apt full-upgrade -y
 sudo reboot
+```
 
 ## Reference
 Bill Sky - The Computer Guy! (2024). Linux 04: How to update and install applications on Linux.  
@@ -215,16 +216,15 @@ The payload used:
 ### **Why It Worked**
 The server constructed a query similar to:
 
-``sql
+```sql
 SELECT * FROM products WHERE category = '<userInput>' AND released = 1;
 When I supplied:
 ' OR 1=1--
 the query became:
 SELECT * FROM products WHERE category = '' OR 1=1--' AND released = 1;
 OR 1=1 makes the condition always true.
-
 -- comments out the remaining clause (AND released = 1), removing the access‑control restriction.
-
+```
 As a result, all products, including hidden ones, were returned.
 
 **<img width="836" height="350" alt="h4-Task-e" src="https://github.com/user-attachments/assets/1b3b7cd0-ddfa-42c0-9822-bc8e86c07829" />**
