@@ -227,7 +227,7 @@ National Cyber Security Centre (2018). Password managers: How they help you secu
 
 ---
 
-## Voluntary Task: t) ROT13 Analysis
+## t) ROT13 Analysis (Voluntary)
 
 For this voluntary task, I explored how the ROT13 cipher behaves when applied multiple times.
 ROT13 works by shifting each letter 13 positions forward in the alphabet. Because the alphabet has 26 letters, applying ROT13 twice returns the original message.
@@ -263,9 +263,9 @@ And then just to play a little more with it, I changed the text of the word and 
 So, it clarifies to me that basically ROT13 twice is same as original text.
 
 ### Conclusion
-Double ROT13 does not increase security.
-Because ROT13 is its own inverse, applying it twice simply returns the original text.
-This makes it unsuitable for any real cryptographic purpose.
+- Double ROT13 does not increase security.
+- Because ROT13 is its own inverse, applying it twice simply returns the original text.
+- This makes it unsuitable for any real cryptographic purpose.
 
 **Reference:**
 GeeksforGeeks (2017). ROT13 cipher. https://www.geeksforgeeks.org/dsa/rot13-cipher/
