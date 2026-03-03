@@ -108,7 +108,7 @@ This revealed the plaintext password associated with the hash as shown in the be
 
 **<img width="257" height="36" alt="h6_taska b_3" src="https://github.com/user-attachments/assets/5958f8d8-0df8-42ec-abc8-4545f1b131f0" />**
 
-Verification
+### Verification
 I confirm the result, Hashcat's --show option was used as below:
 
 ```bash
