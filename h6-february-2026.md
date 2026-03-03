@@ -16,7 +16,7 @@ This section lays out the basic idea behind modern encryption. One‑way functio
 
 ---
 
-### 2.4 One‑Way Hash Functions
+### 2.4 One-Way Hash Functions
 
 A **one‑way hash function** takes input of any length and produces a fixed‑size output, known as a *hash*.
 It acts like a digital fingerprint: even a tiny change in the input results in a completely different hash.
@@ -68,7 +68,7 @@ rm rockyou.txt.tar.gz
 ```
 ### Hash Identification
 The target hash for this task was:
-** d595b2086532422bbe654bc07ea030df **
+**d595b2086532422bbe654bc07ea030df**
 
 Before cracking, I identified the hash type by using hashid:
 
