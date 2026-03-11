@@ -22,9 +22,7 @@ It also highlighted how much information regular browsers leak without us notici
 I found it reassuring that simply using Tor isn't illegal, even if some people associate it with suspicious behavior.
 
 **Source:** Quintin, C. (2014). *7 Things You Should Know About Tor*. Electronic Frontier Foundation.
-
-
-
+---
 ### **Shavers & Bair (2016) - *Hiding Behind the Keyboard: The Tor Browser***
 
 #### **Introduction**
