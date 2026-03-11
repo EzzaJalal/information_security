@@ -173,9 +173,8 @@ Hosting a Tor mirror helps bypass restrictions and keeps information available t
 
 #### References
 
-utmapp (2024). *Tails emulated VM with UTM · utmapp/UTM · Discussion #6261*. GitHub. Available at: utmapp/UTM#6261 [Accessed 30 Sep. 2025].
-
-way (2012). *Ask Ubuntu*. Ask Ubuntu. Available at: https://askubuntu.com/questions/166832/is-there-a-way-to-use-tor-system-wide [Accessed 30 Sep. 2025].
+- utmapp (2024). *Tails emulated VM with UTM · utmapp/UTM · Discussion #6261*. GitHub. Available at: utmapp/UTM#6261 [Accessed 30 Sep. 2025].
+- way (2012). *Ask Ubuntu*. Ask Ubuntu. Available at: https://askubuntu.com/questions/166832/is-there-a-way-to-use-tor-system-wide [Accessed 30 Sep. 2025].
 
 ---
 
