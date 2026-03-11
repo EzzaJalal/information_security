@@ -1,6 +1,5 @@
 # H8 Bonus
 ---
-
 ## b) Voluntary Extras
 
 Below is a list of the voluntary extra tasks I have completed, along with links to their corresponding reports:
