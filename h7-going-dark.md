@@ -23,7 +23,6 @@ I found it reassuring that simply using Tor isn't illegal, even if some people a
 
 **Source:** Quintin, C. (2014). *7 Things You Should Know About Tor*. Electronic Frontier Foundation.
 
----
 
 ### **Shavers & Bair (2016) - *Hiding Behind the Keyboard: The Tor Browser***
 
@@ -111,7 +110,8 @@ Clearly visible in the below screenshot:
 
 <img width="365" height="131" alt="h7_taska_2" src="https://github.com/user-attachments/assets/a9a05b70-9454-4cef-8831-14fbc76cb600" />
 
-5. **Verified the connection** 
+5. **Verified the connection**
+
 Then I visited the Tor check page to confirm that traffic was being routed through the Tor network, also shown in the following screenshot:
 
 <img width="508" height="119" alt="h7_taska_3" src="https://github.com/user-attachments/assets/fc6ed36e-74d4-415e-b300-6d01b9714653" />
@@ -173,13 +173,9 @@ Hosting a Tor mirror helps bypass restrictions and keeps information available t
 
 #### References
 
-utmapp (2024). *Tails emulated VM with UTM · utmapp/UTM · Discussion #6261*. GitHub.  
-Available at: utmapp/UTM#6261  
-[Accessed 30 Sep. 2025].
+utmapp (2024). *Tails emulated VM with UTM · utmapp/UTM · Discussion #6261*. GitHub. Available at: utmapp/UTM#6261 [Accessed 30 Sep. 2025].
 
-way (2012). *Ask Ubuntu*. Ask Ubuntu.  
-Available at: https://askubuntu.com/questions/166832/is-there-a-way-to-use-tor-system-wide  
-[Accessed 30 Sep. 2025].
+way (2012). *Ask Ubuntu*. Ask Ubuntu. Available at: https://askubuntu.com/questions/166832/is-there-a-way-to-use-tor-system-wide [Accessed 30 Sep. 2025].
 
 ---
 
