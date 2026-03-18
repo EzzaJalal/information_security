@@ -24,3 +24,6 @@ Link: https://github.com/EzzaJalal/information_security/blob/main/h6-february-20
 
 Link: https://github.com/EzzaJalal/information_security/blob/main/h7-going-dark.md
 
+### **h9 - Updated Presentation Link** 
+Link: https://haagahelia-my.sharepoint.com/:p:/g/personal/bhm343_myy_haaga-helia_fi/IQBib_KV3BHMTbTiGvMLFBE7AdTum-oS9_tEBNnFSHymLAo?e=o8kvnt
+
